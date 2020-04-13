@@ -1,2 +1,2 @@
 # design-patterns
-University project! Hello!!!!!
+University project!
