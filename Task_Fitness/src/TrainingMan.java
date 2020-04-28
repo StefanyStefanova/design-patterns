@@ -19,6 +19,7 @@ public class TrainingMan implements Observable{
     @Override
     public void subscribe(Observer observer) {
         this.observers.add(observer);
+        observer.setInstruction(this);
     }
 
     @Override

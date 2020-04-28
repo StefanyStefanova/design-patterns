@@ -9,13 +9,13 @@ public class Followers implements Observer{
 
     @Override
     public void update() {
-        if(isFollow ) {
-            boolean latestInstruction = this.trainingMan.getUpdate();
+       boolean last= this.trainingMan.getUpdate();
+
+        if(last== true) {
             System.out.println(this.name + " : getUp " );
         }
         else
         {
-            boolean latestInstruction = this.trainingMan.getUpdate();
             System.out.println(this.name + " : get down " );
         }
     }

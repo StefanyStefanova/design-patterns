@@ -12,6 +12,9 @@ public class MainClass {
         Command getUpCommand = new GetUpCommand(trainingMan);
         Command getDownCommand = new GetDownCommand(trainingMan);
 
+        trainingMan.subscribe(obs1);
+        trainingMan.subscribe(obs2);
+        trainingMan.subscribe(obs3);
 
         instructor.setCommand(getUpCommand);
         instructor.giveInstruction();
@@ -19,14 +22,10 @@ public class MainClass {
         instructor.setCommand(getDownCommand);
         instructor.giveInstruction();
 
-        trainingMan.subscribe(obs1);
-        trainingMan.subscribe(obs2);
-        trainingMan.subscribe(obs3);
+        instructor.setCommand(getDownCommand);
+        instructor.giveInstruction();
 
-       // trainingMan.getDown();
-       // trainingMan.getUp();
-
-
-
+        instructor.setCommand(getUpCommand);
+        instructor.giveInstruction();
     }
 }

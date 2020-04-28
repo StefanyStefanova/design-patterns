@@ -35,7 +35,8 @@ public class Topic implements Observable {
     }
 
     @Override
-    public String getUpdate() {
+    public String getUpdate()
+    {
         return this.name;
     }
 }
