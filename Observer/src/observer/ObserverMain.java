@@ -16,5 +16,7 @@ public class ObserverMain {
 
 
         topic.setNewTopic("Breasking news!");
+        topic.setNewTopic("New news!");
+
     }
 }

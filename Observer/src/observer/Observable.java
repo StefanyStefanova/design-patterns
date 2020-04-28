@@ -7,5 +7,4 @@ public interface Observable {
     public String getUpdate();
 
 
-
 }
