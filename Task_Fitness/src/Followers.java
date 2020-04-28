@@ -9,9 +9,8 @@ public class Followers implements Observer{
 
     @Override
     public void update() {
-       boolean last= this.trainingMan.getUpdate();
-
-        if(last== true) {
+       isFollow= this.trainingMan.getUpdate();
+        if(isFollow) {
             System.out.println(this.name + " : getUp " );
         }
         else
