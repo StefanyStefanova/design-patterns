@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/FacrotyMethod/FacrotyMethod.iml" filepath="$PROJECT_DIR$/FacrotyMethod/FacrotyMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Factory/Factory.iml" filepath="$PROJECT_DIR$/Factory/Factory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task_Fitness/Task_Fitness.iml" filepath="$PROJECT_DIR$/Task_Fitness/Task_Fitness.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
     </modules>
