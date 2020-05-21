@@ -14,7 +14,7 @@ public class ChatRoom implements  ChatMediator{
             for (User u : this.users) {
                 if(u == user)
                 {
-                System.out.println( u.getName() +" says unallowed word! " +  " User was removed!");
+                System.out.println( u.getName() +" says unallowed word : "+ message +"!"+  " User was removed!");
                 delete(u);
                 return;
                 }
