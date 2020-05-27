@@ -10,7 +10,7 @@ public class ChatRoom implements  ChatMediator{
 
     @Override
     public void sendMessage(String message, User user) {
-        if((message=="cat") && (Bot.connection !=null) ){
+        if((message.contains("cat")) && (Bot.connection !=null) ){
             for (User u : this.users) {
                 if(u == user)
                 {
@@ -22,10 +22,15 @@ public class ChatRoom implements  ChatMediator{
         }
         if(message == "addBot")
         {
-            Bot bot =Bot.getInstance();
-            for (User u : this.users) {
-                if (u != user) {
-                    u.receive( user.getName() + " created Bot");
+            if(Bot.connection !=null){
+                System.out.println("You don't have permission to add Bot! ");
+            }
+            else {
+                Bot bot = Bot.getInstance();
+                for (User u : this.users) {
+                    if (u != user) {
+                        u.receive(user.getName() + " created Bot");
+                    }
                 }
             }
         }

@@ -11,5 +11,8 @@ public class Bot {
         }
         return connection;
     }
+    public void sayHi(){
+        System.out.println("Bot was added!");
+    }
 
 }
