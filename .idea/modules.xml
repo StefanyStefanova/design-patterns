@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Mediator_lecture/Mediator_lecture.iml" filepath="$PROJECT_DIR$/Mediator_lecture/Mediator_lecture.iml" />
       <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task_Econt/Task_Econt.iml" filepath="$PROJECT_DIR$/Task_Econt/Task_Econt.iml" />
       <module fileurl="file://$PROJECT_DIR$/Task_Fitness/Task_Fitness.iml" filepath="$PROJECT_DIR$/Task_Fitness/Task_Fitness.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns.iml" filepath="$PROJECT_DIR$/.idea/design-patterns.iml" />
     </modules>
