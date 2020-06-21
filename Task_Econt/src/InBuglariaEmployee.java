@@ -15,7 +15,7 @@ public class InBuglariaEmployee extends Employee {
         EmpState state = new EmpState();
         state.prepareShipment(c);
         notifyObservers();
-        System.out.println("The employee for state shipments finished his work");
+        System.out.println("The employee for state shipments finished his work.");
     }
 
     @Override

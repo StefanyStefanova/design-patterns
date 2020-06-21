@@ -15,7 +15,7 @@ public class InternationalEmployee extends Employee {
         EmpState state = new EmpState();
         state.prepareShipment(c);
         notifyObservers();
-        System.out.println("The employee for international shipments finished his work");
+        System.out.println("The employee for international shipments finished his work.");
     }
 
     @Override

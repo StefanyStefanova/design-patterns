@@ -20,7 +20,9 @@ public class ChainResponsibilityMain {
     public static void main(String[] args){
         Employee chain = getChain();
         chain.processShipment("Ivan Ivanov, Peshtersko shose",3);
+        System.out.println();
         chain.processShipment("Petq Dimitrova, Sofia",2);
+        System.out.println();
         chain.processShipment("Mariq Petrova, Belgrad",1);
 
     }

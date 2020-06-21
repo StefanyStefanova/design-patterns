@@ -14,7 +14,7 @@ public class CityEmployee extends Employee {
         EmpState state = new EmpState();
         state.prepareShipment(c);
         notifyObservers();
-        System.out.println("The employee for city shipments finished his work");
+        System.out.println("The employee for city shipments finished his work.");
     }
 
     @Override

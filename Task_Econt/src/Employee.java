@@ -11,9 +11,9 @@ public abstract class Employee implements Observable{
         this.nextEmployee = nextEmployee;
     }
 
-    public void processShipment(String message, int type){
+    public void processShipment(String message, int level){
 
-        if(this.level <=level)
+        if(this.level == level)
         {
             this.logShipment(message);
             return;
